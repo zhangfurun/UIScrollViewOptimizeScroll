@@ -1,0 +1,3 @@
+# UIScrollViewOptimizeScroll
+UIScrollView的滑动优化,用于多照片展示,照片查看器可以采用的UIScrollView
+保存图片采用集合形式,没有采用数组,在于集合形式的forin循环查找将会更快,主要通过哈希值进行查找
